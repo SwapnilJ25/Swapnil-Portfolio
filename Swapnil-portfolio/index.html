@@ -301,12 +301,23 @@
               <input type="text" name="Name" placeholder="Name"><input type="email" name="Email"
                 placeholder="Email"><textarea name="Message" placeholder="Message" rows="5" cols="10"></textarea><button
                 class="formbutton" type="submit">Submit</button>
-              <div class="items-center flex flex-row md:mt-0 mt-6"><img src="assets/linkedin-3be30c66.svg"
-                  alt="social-media-1" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-6"><img
+              <div class="items-center flex flex-row md:mt-0 mt-6">
+                <!-- <img src="assets/linkedin-3be30c66.svg"
+                  alt="social-media-1" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-6"> -->
+                  <a href="https://www.linkedin.com/in/swapnil-jori">
+                    <img src="assets/linkedin-3be30c66.svg" alt="social-media-1" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-6">
+                </a>
+                <a href="https://github.com/SwapnilJ25">
+                  <img
                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABgklEQVR4nL2VzStEYRTG72JqxkoxO1E2hCmJkY2dr8mWhT/BYpKVsOY/EPbyla+yUVaUIgtLWdGMrxKyEKF+enWmTrd7X++dXKdu3TrP8/zuR+85HjAIXPP3VQRyntzEVQUDiLU8B80XcADMAHm5ZoFD6ZUN+ATmgRovpEwPWLSBwgCPQG9YcACoD3hyBbwBXa7hpQI6gFcXwKgynQG7QBZoBAaAfqDBPASwBxwpff43wDmQUIb3sG+rP6fSJ4ALG2BSiSuABwfADZBUvmkboE0JJxzCSzWmfO02QJUSbkcArCpftQ2gX3UrAmBZ+ZI2QK0STkUAjCtfnQ0wpIRp4NYh/AqoVL5hG2BdRBkZA/XAGvASEPwMLOm3Fu+GDWDmT7OEHxuQmFLAndJd6vOiwjOSEQpAgs2P6gHuZXKuBOiafOHmIU5ch92mGEaAfYH6q9N3KHeijmsT2iIB3QH9rPRagdNyF86H/OSFgN6cnBXr0vmXlVmMMf9n6edighTM/vgGL/CI8eihqE8AAAAASUVORK5CYII="
-                  alt="social-media-2" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-6"><img
+                  alt="social-media-2" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-6">
+                  </a>
+                  <a href="mailto:joriswapnil8@gmail.com">
+                  <img
                   src="data:image/png;base64,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"
-                  alt="social-media-3" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-0"></div>
+                  alt="social-media-3" class="w-[21px] h-[21px] mt-6 object-contain cursor-pointer mr-0">
+                </a>
+              </div>
             </form>
             <script src="https://sheet2api.com/v1/template.js"></script>
           </div>
